@@ -1,7 +1,7 @@
 title: Social welfare policy
 new-page: true
 is-card: true
-tags: govt_affairs
+tags: govt_affairs, cabinet
 on-arrival: social_welfare_timer = 10; month_actions += 1
 view-if: spd_in_government = 1 and social_welfare_timer = 0
 card-image: img/portraits/JuchaczMarie.jpg
@@ -16,6 +16,7 @@ The social welfare program, including unemployment insurance, healthcare, and ol
 - @spending_same_pre_depression: Keep spending the same.
 - @spending_same_post_depression: Keep spending the same (effectively a service cut).
 - @easy_discard
+#- @cancel_advisor_action
 
 @reduce_spending
 subtitle: This will hurt our proletarian base. +1 Budget
